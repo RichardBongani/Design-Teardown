@@ -1,0 +1,25 @@
+body {
+    margin:0;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 150px;
+}
+
+.header-grid {
+    border: 1px;
+    background-color: lightgray;
+    padding: 10px; 
+    float: left; 
+    text-align: center;
+    padding-top: 60px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+#topics {
+    border: 2px solid black;
+}
