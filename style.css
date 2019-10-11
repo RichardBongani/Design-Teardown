@@ -75,3 +75,44 @@ body {
   background-color: grey;
   grid-area: 3 / 2 / span 4 / span 5;
 }
+
+.see_all {
+  text-align: center;
+  text-decoration: underline red;
+  padding: 65px;
+}
+
+.smashing {
+  background-color: grey;
+  text-align: center;
+  height: 800px;
+}
+
+.print {
+  text-decoration: underline;
+}
+
+.week, .week_title {
+  text-align: center;
+}
+
+.authors_stories {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  padding: 100px ;
+}
+
+.author-heading {
+  margin:85px;
+}
+
+.twitter-link{
+  text-align: center;
+  padding: 50px;
+  text-decoration: underline red;
+}
+
+.design_system {
+  background-color: grey;
+  height:350px;
+}
