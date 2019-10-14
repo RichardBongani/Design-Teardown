@@ -130,6 +130,10 @@ body {
   height: 900px;
 }
 
+.letter {
+  text-align: center;
+}
+
 .Gd {
   grid-area: 1 / 1 / span 7 / span 9;
 }
@@ -144,4 +148,78 @@ body {
   padding-top: 65px;
   padding-bottom: 65px;
   text-decoration: underline;
+}
+
+.browser {
+  background-color:  darkgray;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.footer1,
+.footer2, 
+.footer3, 
+.footer4,
+.footer5,
+.footer-last {
+  text-align: center;
+  margin: 35px;
+}
+
+.list1 {
+  display: inline;
+  padding: 15px;
+}
+
+.list2 {
+  display: inline;
+  padding: 16px;
+}
+
+.list3 {
+  display: inline;
+  padding: 13px;
+}
+
+.list4 {
+  display: inline;
+  padding: 9px;
+}
+
+.footer_paragraph, .footer-last {
+  text-align: center;
+}
+
+.footer5 {
+  text-align: center;
+}
+
+.list5 {
+  display: inline;
+  padding: 20px;
+}
+
+.list6 {
+  display: inline;
+  padding: 10px;
+}
+
+.list-link1,
+.list-link2, 
+.list-link3, 
+.list-link4,
+.list-link5,
+.list-link6 {
+  text-decoration: none;
+  color: black !important;
+  font-size: 20px;
+}
+
+.list-link5,
+.list-link6 {
+  text-decoration: underline;
+}
+
+#footer_heading {
+ padding:25px;
 }
