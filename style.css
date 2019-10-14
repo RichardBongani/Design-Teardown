@@ -1,6 +1,7 @@
 body {
   margin:0;
   background-color: lightgray;
+  overflow-x: hidden;
 }
 
 .main-header {
@@ -122,12 +123,14 @@ body {
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   height: 500px;
+  padding: 45px;
 }
 
 .newsletter {
   display: grid;
-  grid-template: repeat(30, 1fr)/ repeat(30, 1fr);
+  width: 100%;
   height: 900px;
+  grid-template: repeat(30, 1fr)/ repeat(30, 1fr);
 }
 
 .letter {
@@ -135,12 +138,13 @@ body {
 }
 
 .Gd {
+  padding-left: 45px;
   grid-area: 1 / 1 / span 7 / span 9;
 }
 
 .Na {
   background-color: grey;
-  grid-area: 1 / 12 / span 9 / span 17;
+  grid-area: 1 / 12 / span 35 / span 18;
 }
 
 .see-all {
@@ -157,8 +161,8 @@ body {
 }
 
 .footer1,
-.footer2, 
-.footer3, 
+.footer2,
+.footer3,
 .footer4,
 .footer5,
 .footer-last {
@@ -205,8 +209,8 @@ body {
 }
 
 .list-link1,
-.list-link2, 
-.list-link3, 
+.list-link2,
+.list-link3,
 .list-link4,
 .list-link5,
 .list-link6 {
@@ -222,4 +226,37 @@ body {
 
 #footer_heading {
  padding:25px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Concert One', cursive;
+}
+
+.guide ul {
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.Na p {
+  font-size: 22px;
+}
+
+.system p {
+  font-size: 25px;
+}
+
+.system {
+  padding-left: 60px;
+}
+
+.front-end li,
+.opti li,
+.workflow li,
+.design li {
+  padding-top: 15px;
+  color: blue;
 }
