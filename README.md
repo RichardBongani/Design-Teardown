@@ -12,8 +12,8 @@ We used HTML and CSS to build this project
 
 # credits
 
-https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown
-https://www.smashingmagazine.com/
+- https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown
+- https://www.smashingmagazine.com/
 
 
 
