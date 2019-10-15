@@ -1,6 +1,6 @@
 #Project Title
 
-Design-Teardown
+Design-Teardown, it was build using grids and light and dark background colors
 
 #Motivation
 
