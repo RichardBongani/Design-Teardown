@@ -28,7 +28,7 @@ body {
 
 .articles {
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-template: repeat(2, 1fr) / repeat(50, 1fr);
   width: 100%;
   height: 1200px;
 }
@@ -39,20 +39,30 @@ body {
 
 .Wa {
   background-color: #C0C0C0;
+  grid-area: 1 / 1 / 1 / 27;
 }
 
 .Wb {
   background-color: gainsboro;
+  grid-area: 1 / 27 / 1 / 52;
 }
 
 .Wc {
   background-color: gray;
+  grid-area: 2 / 1 / 2 / 25;
+
 }
 
 .Wd {
   background-color: darkgray;
+  grid-area: 2 / 25 / 2 / 50;
 }
 
+.latest {
+  grid-area: 1 / 23 / 1 /28;
+  background-color: white;
+  z-index: 10;
+}
 .articles2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -60,6 +70,16 @@ body {
   height: 500px;
 }
 
+.articles2 p {
+  font-size: 23px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.8;
+}
+
+.articles2 h2 {
+  margin-left: 30px;
+}
 .explore {
   display: grid;
   width: 100%;
@@ -70,11 +90,74 @@ body {
 .Ma {
   background-color: grey;
   grid-area: 2 / 8 / span 11 / span 12;
+  text-align: center;
+}
+
+.Ma h1 {
+  padding-top: 200px;
+}
+
+.Ma p {
+  font-size: 25px;
 }
 
 .Fa {
   background-color: grey;
   grid-area: 3 / 2 / span 4 / span 5;
+  text-align: center;
+}
+
+.articles3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 500px;
+}
+
+.articles3 p {
+  font-size: 23px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.8;
+}
+
+.articles3 h2 {
+  margin-left: 30px;
+}
+
+.articles3A {
+  display: grid;
+  width: 100%;
+  height: 700px;
+  grid-template: repeat(13, 1fr) / repeat(20, 1fr);
+}
+
+.tv {
+  background-color: grey;
+  grid-area: 1 / 8 / span 11 / span 12;
+  text-align: center;
+}
+
+.tv h1 {
+  padding-top: 200px;
+}
+
+.tv p {
+  font-size: 25px;
+}
+
+.articles3A p {
+  font-size: 23px;
+  margin-left: 30px;
+  line-height: 1.8;
+}
+
+.articles3A h2 {
+  margin-left: 30px;
+}
+
+.Bg {
+  grid-area: 1 / 1 / span 2 / span 6;
 }
 
 .see_all {
@@ -117,10 +200,10 @@ body {
 }
 
 .ispiring,
-.meaning, 
-.logical, 
-.minimalist, 
-.creat, 
+.meaning,
+.logical,
+.minimalist,
+.creat,
 .web {
   margin-left: 95px;
   padding: 30px;
