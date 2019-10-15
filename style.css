@@ -91,10 +91,13 @@ body {
 
 .print {
   text-decoration: underline;
+  font-size: 40px;
 }
 
-.week, .week_title {
-  text-align: center;
+.week_title {
+  margin-left: 20%;
+  font-size: 20px;
+  color: grey;
 }
 
 .authors_stories {
@@ -103,11 +106,37 @@ body {
   padding: 100px ;
 }
 
-.author-heading {
-  margin:85px;
+.week {
+  margin-left: 20%;
+  font-size: 22px;
+  width: 60%;
 }
 
-.twitter-link{
+.person_of_the_week {
+  padding: 55px;
+}
+
+.ispiring,
+.meaning, 
+.logical, 
+.minimalist, 
+.creat, 
+.web {
+  margin-left: 95px;
+  padding: 30px;
+}
+
+.author {
+  color: gray;
+  text-decoration: underline;
+}
+
+.author-paragraph {
+  font-size: 20px;
+  width: 100%;
+}
+
+.twitter-link {
   text-align: center;
   padding: 50px;
   text-decoration: underline red;
@@ -115,7 +144,7 @@ body {
 
 .design_system {
   background-color: grey;
-  height:350px;
+  height: 350px;
 }
 
 .guides {
@@ -259,4 +288,12 @@ h4 {
 .design li {
   padding-top: 15px;
   color: blue;
+}
+
+#coming_next {
+  padding-top: 90px;
+}
+
+.smash_paragraph {
+  font-size: 30px;
 }
