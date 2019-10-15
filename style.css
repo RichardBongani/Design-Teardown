@@ -44,25 +44,35 @@ body {
 
 .Wb {
   background-color: gainsboro;
-  grid-area: 1 / 27 / 1 / 52;
+  grid-area: 1 / 26 / 1 / 51;
 }
 
 .Wc {
   background-color: gray;
-  grid-area: 2 / 1 / 2 / 25;
+  grid-area: 2 / 1 / 2 / 26;
 
 }
 
 .Wd {
   background-color: darkgray;
-  grid-area: 2 / 25 / 2 / 50;
+  grid-area: 2 / 26 / 2 / 51;
 }
 
 .latest {
-  grid-area: 1 / 23 / 1 /28;
+  grid-area: 1 / 20 / 1 /32;
   background-color: white;
   z-index: 10;
+  height: 100px;
+  margin-top: 50px;
 }
+
+.Wa h1,
+.Wb h1,
+.Wc h1,
+.Wd h1 {
+  padding-top: 230px;
+}
+
 .articles2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
